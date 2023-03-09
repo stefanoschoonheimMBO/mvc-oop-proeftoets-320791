@@ -8,17 +8,23 @@
 </head>
 <body>
     <h3><?= $data['title']; ?></h3>
-    <a href="<?= URLROOT; ?>/country/index">Landen</a>
-
     <table border="1">
         <thead>
             <th>Id</th>
             <th>Naam</th>
+            <th>Club</th>
+            <th>Leeftijd</th>
+            <th>Nationaliteit</th>
+            <th>Salaris</th>
         </thead>
         <tbody>
     	    <tr>
-                <td><?= $data['id']; ?></td>
-                <td><?= $data['name']; ?></td>
+                <td><?= $data['Id']; ?></td>
+                <td><?= $data['Naam']; ?></td>
+                <td><?= $data['Club']; ?></td>
+                <td><?= $data['Leeftijd']; ?></td>
+                <td><?= $data['Nationaliteit']; ?></td>
+                <td><?= $data['Salaris']; ?></td>
             </tr>
         </tbody>
     </table>
